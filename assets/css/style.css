@@ -108,6 +108,35 @@
     filter: drop-shadow(0 0 15px #FFD600);
 }
 
+
+
+.bordr {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.about {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.bordr1 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px;
+        border-collapse: collapse;
+}
+
+.br-lft{
+    border-left: none;
+}
 /* Make it move */
 @keyframes marquee {
     0% {
