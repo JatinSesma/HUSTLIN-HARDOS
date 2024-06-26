@@ -1,10 +1,20 @@
-*{
+@import url(../css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: ModernoFBComp;
+    src: url(../font-family/modernofbcomp-semibold.otf);
+}
+
+
+* {
     padding: 0%;
     margin: 0%;
     list-style-type: none !important;
     box-sizing: border-box;
     text-decoration: none !important;
 }
+
 
 .header-1 {
     background: #000000;
@@ -54,6 +64,48 @@
     padding: 3px;
     margin-left: 8px;
     color: #FFD600;
+}
+
+.bg-img {
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hustlin-head {
+    font-family: 'ModernoFBComp', sans-serif;
+    font-size: var(--fs-24);
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: var(--color-black);
+}
+
+
+.gap-18 {
+    gap: 18px;
+}
+
+.walletbox {
+    /* width: Hug (165px)px;
+    height: Hug (43px)px; */
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border: 2px;
+    background: var(--color-yellow);
+    border: 2px solid var(--color-black);
+    font-family: Noto Serif;
+    font-size: var(--fs-14);
+    font-weight: 600;
+    line-height: 19.07px;
+
+}
+
+.walletbox:hover {
+    background-color: #000000;
+    color: #FFD600;
+    filter: drop-shadow(0 0 15px #FFD600);
 }
 
 /* Make it move */
