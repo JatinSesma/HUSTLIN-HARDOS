@@ -31,9 +31,9 @@ const btnadd = document.querySelector(".btn-add");
 const number = document.querySelector(".number");
 
 btnsub.addEventListener("click", function () {
-    number.innerHTML = +number.innerHTML - 1;
+    number.innerHTML = +number.innerHTML-1;
 });
 
 btnadd.addEventListener("click", function () {
-    number.innerHTML = +number.innerHTML + 1;
+    number.innerHTML = +number.innerHTML+1;
 });

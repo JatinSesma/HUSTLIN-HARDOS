@@ -271,7 +271,7 @@
 }
 
 .btn-sub {
-    border-right: 2px solid #000000;
+    border-right: 2px solid #000000 !important;
 }
 
 .btn-add,
@@ -285,7 +285,33 @@
 
 .text-e {
     font-family: "Noto Serif", serif;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-36);
+    font-weight: 600;
+    line-height: 39.85px;
+    color: #000000;
+}
+
+
+
+.left {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-18);
+    font-weight: 600;
+    line-height: 39.85px;
+    color: #000000;
+}
+
+.timer {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-36);
+    font-weight: 600;
+    line-height: 39.85px;
+    color: #000000;
+}
+
+.mint-now {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-14);
     font-weight: 600;
     line-height: 39.85px;
     color: #000000;
@@ -309,6 +335,15 @@
 
 .color-green {
     color: #00A106;
+}
+
+.img-border{
+    border-left: 2px solid;
+}
+
+.img-border2{
+    border-left: 2px solid;
+    border-right: 2px solid;
 }
 /* Make it move */
 @keyframes marquee {
