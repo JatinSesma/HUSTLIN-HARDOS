@@ -811,6 +811,10 @@ ul {
         top: 11%;
     
     }
+
+    .lh-85{
+        line-height: 85px;
+    }
 }
 
 @media (min-width:992px) {
@@ -877,6 +881,10 @@ ul {
         --fs-72: 32px;
         --fs-80: 80px;
         --fs-157: 101px;
+    }
+
+    .lh-85{
+        line-height: 65px;
     }
 }
 
