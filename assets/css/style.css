@@ -340,6 +340,14 @@ ul {
     color: var(--color-black);
 }
 
+.etam2 {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-34);
+    font-weight: 600;
+    line-height: 39.85px;
+    text-align: left;
+    color: var(--color-black);
+}
 .diam {
     font-family: "Noto Serif", serif;
     font-size: var(--fs-16);
@@ -908,6 +916,10 @@ ul {
 
     .lh-85 {
         line-height: 65px;
+    }
+
+    .fs-28{
+        font-size: var(--fs-28);
     }
 }
 
