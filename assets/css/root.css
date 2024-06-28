@@ -2,6 +2,7 @@
     --fs-14: 14px;
     --fs-16: 16px;
     --fs-18: 18px;
+    --fs-20:20px;
     --fs-24: 24px;
     --fs-36: 36px;
     --fs-72: 72px;
@@ -14,5 +15,5 @@
     --color-green: #00a106;
     --color-red: #ff0000;
     --color-red-2: #ff1300;
-    --color-slati: #A59A90;
+    --color-hex:#A59A90;
 }
