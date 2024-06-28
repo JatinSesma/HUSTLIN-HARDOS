@@ -844,6 +844,14 @@ ul {
     .lh-140 {
         line-height: 140px;
     }
+
+    .border-right2 {
+        border-right: 2px solid var(--color-black) !important;
+    }
+
+    .border-top2{
+        border-top: 2px solid var(--color-black) !important;
+    }
 }
 
 @media (min-width:992px) {
