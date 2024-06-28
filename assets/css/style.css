@@ -767,33 +767,9 @@ ul {
     color: var(--color-black);
 }
 
-/* scroll to top */
-.scroll-button {
-    position: fixed;
-    bottom: 2%;
-    right: 1%;
-    z-index: 4;
-    width: 55px;
-    display: none;
-    height: 55px;
-    background-color: var(--text-bg);
-    border-radius: 50%;
-    cursor: pointer;
-    border: 1px solid var(--text-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.scroll-button:hover {
-    background: var(--color-white);
-}
 
-.scroll-button:hover path {
-    fill: var(--text-bg);
-}
 
-/* Make it move */
 @keyframes marquee {
     0% {
         transform: translate(0, 0);
@@ -894,7 +870,7 @@ ul {
         font-size: var(--fs-50);
     }
 
-    .fs--67 {
+    .fs-67 {
         font-size: var(--fs-67);
     }
 
@@ -929,6 +905,7 @@ ul {
     .fs-28{
         font-size: var(--fs-28);
     }
+
 }
 
 @media (min-width:576px) {
