@@ -321,10 +321,6 @@ ul {
     margin-top: 16px;
 }
 
-.pl-43 {
-    padding-left: 43px !important;
-}
-
 .two {
     font-family: "Noto Serif", serif;
     font-size: var(--fs-14);
@@ -890,7 +886,10 @@ ul {
 
 @media (min-width:576px) {
 
-    /* timeline */
+    .pl-43{
+        padding-left: 43px !important;
+    }
+    
     .timeline::after {
         content: '';
         position: absolute;
