@@ -811,6 +811,22 @@ ul {
     .lh-85{
         line-height: 85px;
     }
+
+    .flex-clmn{
+        flex-direction: column;
+    }
+
+    :root {
+        --fs-14: 14px;
+        --fs-16: 16px;
+        --fs-18: 18px;
+        --fs-20:20px;
+        --fs-24: 24px;
+        --fs-36: 36px;
+        --fs-72: 50px;
+        --fs-80: 67px;
+        --fs-157: 101px;
+    }
 }
 
 @media (min-width:992px) {
@@ -857,7 +873,7 @@ ul {
         --fs-24: 24px;
         --fs-36: 36px;
         --fs-72: 50px;
-        --fs-80: 80px;
+        --fs-80: 67px;
         --fs-157: 101px;
     }
     
@@ -875,7 +891,7 @@ ul {
         --fs-24: 24px;
         --fs-36: 36px;
         --fs-72: 32px;
-        --fs-80: 80px;
+        --fs-80: 38px;
         --fs-157: 101px;
     }
 
