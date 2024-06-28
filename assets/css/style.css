@@ -108,9 +108,10 @@
     transition: all 300ms linear;
 }
 
-.p-10{
+.p-10 {
     padding: 10px;
 }
+
 .menulist {
     position: absolute;
     width: 100%;
@@ -805,27 +806,35 @@ ul {
         position: absolute;
         left: 40%;
         top: 11%;
-    
+
     }
 
-    .lh-85{
+    .lh-85 {
         line-height: 85px;
     }
 
-    .flex-clmn{
+    .flex-clmn {
         flex-direction: column;
     }
 
-    :root {
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20:20px;
-        --fs-24: 24px;
-        --fs-36: 36px;
-        --fs-72: 50px;
-        --fs-80: 67px;
-        --fs-157: 101px;
+    .fs-61 {
+        font-size: 61px;
+    }
+
+    .fs-50 {
+        font-size: var(--fs-50);
+    }
+
+    .fs--67 {
+        font-size: var(--fs-67);
+    }
+
+    .fs-101 {
+        font-size: var(--fs-101);
+    }
+
+    .lh-140 {
+        line-height: 140px;
     }
 }
 
@@ -865,47 +874,49 @@ ul {
 
 
 @media (max-width:768px) {
-    :root {
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20:20px;
-        --fs-24: 24px;
-        --fs-36: 36px;
-        --fs-72: 50px;
-        --fs-80: 67px;
-        --fs-157: 101px;
+    .fs-50 {
+        font-size: var(--fs-50);
     }
-    
-    .lh-101{
+
+    .fs--67 {
+        font-size: var(--fs-67);
+    }
+
+    .fs-101 {
+        font-size: var(--fs-101);
+    }
+
+    .lh-140 {
         line-height: 101px;
     }
 }
 
 @media (max-width:576px) {
-    :root {
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20:20px;
-        --fs-24: 24px;
-        --fs-36: 36px;
-        --fs-72: 32px;
-        --fs-80: 38px;
-        --fs-157: 101px;
+
+
+    .fs-32 {
+        font-size: var(--fs-32);
     }
 
-    .lh-85{
+    .fs-61 {
+        font-size: var(--fs-38);
+    }
+
+    .fs-101 {
+        font-size: var(--fs-70);
+    }
+
+    .lh-85 {
         line-height: 65px;
     }
 }
 
 @media (min-width:576px) {
 
-    .pl-43{
+    .pl-43 {
         padding-left: 43px !important;
     }
-    
+
     .timeline::after {
         content: '';
         position: absolute;
