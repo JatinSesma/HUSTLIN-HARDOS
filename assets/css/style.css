@@ -118,7 +118,7 @@
     height: 100vh;
     top: 0%;
     right: -100%;
-    background-image: linear-gradient(to top, #000000, #0066AD);
+    background: linear-gradient(to top, #000000,#ffd600);
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
