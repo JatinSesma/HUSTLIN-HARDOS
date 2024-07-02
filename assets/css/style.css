@@ -71,7 +71,7 @@
     width: 50px;
     height: 35px;
     position: absolute;
-    right: 4%;
+    right: -1%;
     top: 7%;
     display: block;
     z-index: 10;
@@ -79,10 +79,10 @@
 }
 
 #menuicon .line {
-    width: 50px;
+    width: 33px;
     background: var(--color-black);
     margin: 6px 0 0 0;
-    height: 5px;
+    height: 4px;
     display: block;
     transition: all 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -173,7 +173,7 @@ ul {
 }
 
 .bg-img {
-    background-image: url(../images/bg-img.png);
+    background-image: url(../images/PNG/bg-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,6 +379,10 @@ ul {
     border-bottom: none;
 }
 
+.py-21{
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
 .c-p {
     cursor: pointer;
 }
@@ -590,10 +594,10 @@ ul {
     width: 59px;
     height: 59px;
     position: absolute;
-    background-image: url(../images/timeline-circle.png);
+    background-image: url(../images/PNG/timeline-circle.png);
     border-radius: 50%;
     top: 14px;
-    left: 1px;
+    left: -2px;
     z-index: 1;
 }
 
@@ -608,10 +612,10 @@ ul {
     width: 59px;
     height: 59px;
     position: absolute;
-    background-image: url(../images/timeline-circle.png);
+    background-image: url(../images/PNG/timeline-circle.png);
     border-radius: 50%;
     top: 6px;
-    left: 1px;
+    left: -2px;
     z-index: 1;
 }
 
@@ -684,7 +688,7 @@ ul {
 
 /* second-slider */
 .chlidslide {
-    background-image: url(../images/slider-bg-img.jpg);
+    background-image: url(../images/PNG/slider-bg-img.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -705,8 +709,10 @@ ul {
 } */
 
 .childslider2 {
-    padding: 35px;
-    background-image: url(../images/slider-bg-img.jpg);
+    padding: 35px !important;
+    background-image: url(../images/PNG/slider-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .border-lrp {
@@ -795,6 +801,10 @@ ul {
 }
 
 @media (max-width:992px) {
+
+    .overflow-lg-hidden{
+        overflow: hidden;
+    }
     .hustlin-hardos {
         font-family: "ModernoFBComp", sans-serif;
         font-size: var(--font-size-24);
@@ -807,11 +817,20 @@ ul {
 
     }
 
+    .diam-pera2 {
+        font-family: 'Noto Serif', sans-serif;
+        font-size: var(--fs-24);
+        font-weight: 900;
+        line-height: 49.03px;
+        color: var(--color-hex);
+        max-width: 319px;
+    }
+
     .lh-85 {
         line-height: 85px;
     }
 
-    .flex-clmn {
+    .flex-clmn{
         flex-direction: column;
     }
 
@@ -900,9 +919,14 @@ ul {
         font-size: 28px;
     }
 
-    .fs-30 {
-        font-size: var(--fs-26);
+    .fs-61{
+        font-size: 47px;
     }
+    
+
+    /* .fs-30 {
+        font-size: var(--fs-26);
+    } */
 }
 
 @media (max-width:576px) {
@@ -912,9 +936,9 @@ ul {
         font-size: var(--fs-32);
     }
 
-    .fs-61 {
+    /* .fs-61 {
         font-size: var(--fs-38);
-    }
+    } */
 
     .fs-101 {
         font-size: var(--fs-70);
@@ -928,16 +952,20 @@ ul {
         font-size: var(--fs-28);
     }
 
-    .fs-30 {
-        font-size: 30px;
+    .flex-clmn {
+        flex-direction: column;
     }
+
+    /* .fs-30 {
+        font-size: 30px;
+    } */
 }
 
 @media (min-width:576px) {
 
-    .pl-43 {
+    /* .pl-43 {
         padding-left: 43px !important;
-    }
+    } */
 
     .timeline::after {
         content: '';
@@ -955,10 +983,10 @@ ul {
         width: 59px;
         height: 59px;
         position: absolute;
-        background-image: url(../images/timeline-circle.png);
+        background-image: url(../images/PNG/timeline-circle.png);
         border-radius: 50%;
         top: 6px;
-        right: -31px;
+        right: -27px;
         left: unset;
     }
 
@@ -967,7 +995,7 @@ ul {
         width: 59px;
         height: 59px;
         position: absolute;
-        background-image: url(../images/timeline-circle.png);
+        background-image: url(../images/PNG/timeline-circle.png);
         border-radius: 50%;
         top: 14px;
         left: -31px;
