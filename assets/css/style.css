@@ -801,6 +801,10 @@ ul {
 }
 
 @media (max-width:992px) {
+
+    .overflow-lg-hidden{
+        overflow: hidden;
+    }
     .hustlin-hardos {
         font-family: "ModernoFBComp", sans-serif;
         font-size: var(--font-size-24);
