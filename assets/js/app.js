@@ -120,10 +120,10 @@ function backtoTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 500) {
-    scroll_button.setAttribute("style", "display: flex;");
-  } else {
-    scroll_button.setAttribute("style", "display: none;");
-  }
-});
+// window.addEventListener("scroll", function () {
+//   if (window.scrollY > 500) {
+//     scroll_button.setAttribute("style", "display: flex;");
+//   } else {
+//     scroll_button.setAttribute("style", "display: none;");
+//   }
+// });
