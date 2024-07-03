@@ -119,11 +119,3 @@ let scroll_button = document.querySelector(".scroll-button");
 function backtoTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
-
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 500) {
-    scroll_button.setAttribute("style", "display: flex;");
-  } else {
-    scroll_button.setAttribute("style", "display: none;");
-  }
-});
